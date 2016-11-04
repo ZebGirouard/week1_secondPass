@@ -21,3 +21,25 @@
 ### Anatomy of the Document Tree
 
 ![](http://dabrook.org/assets/images/uploads/Simple-Document-Tree.png)
+
+### Anatomy of a Function
+
+![](http://2.bp.blogspot.com/-ufCRU4O4_4A/U98qa26fPkI/AAAAAAAAUTM/fd1UOLBnW44/s1600/Screen+Shot+2014-08-03+at+11.38.19+PM.png)
+
+### A JS Object Example
+
+http://www.w3schools.com/js/js_objects.asp
+
+Which may look like:
+
+```
+javascript
+var car = {
+  name: "Fiat",
+  start: function() {
+    this.state = "On";
+    console.log("And we're off!");
+  }
+  ...
+}
+```
