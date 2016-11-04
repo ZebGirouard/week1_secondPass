@@ -34,8 +34,7 @@ http://www.w3schools.com/js/js_objects.asp
 
 Which may look like:
 
-```
-javascript
+```javascript
 var car = {
   name: "Fiat",
   start: function() {
