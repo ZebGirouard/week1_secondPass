@@ -1,6 +1,6 @@
 # Week 1 Second Pass
 
-# Diagramming Terms
+## Diagramming Terms
 
 ### Anatomy of a CSS Rule
 
@@ -30,6 +30,8 @@
 
 http://www.w3schools.com/js/js_objects.asp
 
+## JS Objects
+
 Which may look like:
 
 ```
@@ -42,4 +44,21 @@ var car = {
   }
   ...
 }
+```
+
+### Definitions
+
+A **property** is an association between a **key** and a **value**.
+
+`name: "Fiat"`
+
+`key: value`
+
+A **method** is a **property** that is also a **function**.
+
+```
+  start: function() {
+    this.state = "On";
+    console.log("And we're off!");
+  }
 ```
